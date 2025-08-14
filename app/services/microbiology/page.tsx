@@ -1,5 +1,5 @@
 import { Hero } from "@/components/ui/helix-hero";
-import { Microscope, Dna, Flask, Shield, Activity, Beaker, CheckCircle } from "lucide-react";
+import { Microscope, Dna, FlaskRound, Shield, Activity, Beaker, CheckCircle } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -16,10 +16,10 @@ export default function MicrobiologyServicesPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 className="text-3xl font-light tracking-tight text-gray-900 mb-6">
                 Pioneering Microbiology Research & Development
               </h2>
-              <p className="text-lg text-gray-600 mb-6">
+              <p className="text-gray-700 text-sm leading-relaxed font-light tracking-tight mb-6">
                 Our microbiology services combine state-of-the-art laboratory capabilities 
                 with cutting-edge research methodologies to deliver breakthrough solutions 
                 for complex biological challenges.
@@ -63,8 +63,8 @@ export default function MicrobiologyServicesPage() {
       <section className="py-20 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Core Microbiology Services</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-light tracking-tight text-gray-900 mb-3">Core Microbiology Services</h2>
+            <p className="text-gray-700 text-sm leading-relaxed font-light tracking-tight max-w-2xl mx-auto">
               Comprehensive laboratory and research capabilities for diverse applications
             </p>
           </div>
@@ -72,7 +72,7 @@ export default function MicrobiologyServicesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <Microscope className="h-10 w-10 text-green-600 mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Diagnostic Microbiology</h3>
+              <h3 className="text-xl font-medium text-gray-900 mb-3">Diagnostic Microbiology</h3>
               <p className="text-gray-600 mb-4">
                 Rapid and accurate identification of pathogens using advanced molecular techniques.
               </p>
@@ -85,7 +85,7 @@ export default function MicrobiologyServicesPage() {
 
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <Dna className="h-10 w-10 text-green-600 mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Genomics & Proteomics</h3>
+              <h3 className="text-xl font-medium text-gray-900 mb-3">Genomics & Proteomics</h3>
               <p className="text-gray-600 mb-4">
                 Comprehensive genetic and protein analysis for research and development.
               </p>
@@ -97,8 +97,8 @@ export default function MicrobiologyServicesPage() {
             </div>
 
             <div className="bg-white rounded-lg p-6 shadow-sm">
-              <Flask className="h-10 w-10 text-green-600 mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Fermentation Technology</h3>
+              <FlaskRound className="h-10 w-10 text-green-600 mb-4" />
+              <h3 className="text-xl font-medium text-gray-900 mb-3">Fermentation Technology</h3>
               <p className="text-gray-600 mb-4">
                 Optimize bioprocesses for pharmaceutical and industrial applications.
               </p>
@@ -111,7 +111,7 @@ export default function MicrobiologyServicesPage() {
 
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <Shield className="h-10 w-10 text-green-600 mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Antimicrobial Research</h3>
+              <h3 className="text-xl font-medium text-gray-900 mb-3">Antimicrobial Research</h3>
               <p className="text-gray-600 mb-4">
                 Development and testing of novel antimicrobial compounds and strategies.
               </p>
@@ -124,7 +124,7 @@ export default function MicrobiologyServicesPage() {
 
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <Activity className="h-10 w-10 text-green-600 mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Microbiome Analysis</h3>
+              <h3 className="text-xl font-medium text-gray-900 mb-3">Microbiome Analysis</h3>
               <p className="text-gray-600 mb-4">
                 Comprehensive profiling of microbial communities and their functions.
               </p>
@@ -137,7 +137,7 @@ export default function MicrobiologyServicesPage() {
 
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <Beaker className="h-10 w-10 text-green-600 mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Quality Control</h3>
+              <h3 className="text-xl font-medium text-gray-900 mb-3">Quality Control</h3>
               <p className="text-gray-600 mb-4">
                 Ensure product safety and compliance with regulatory standards.
               </p>
@@ -155,15 +155,15 @@ export default function MicrobiologyServicesPage() {
       <section className="py-20 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Research Focus Areas</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-light tracking-tight text-gray-900 mb-3">Research Focus Areas</h2>
+            <p className="text-gray-700 text-sm leading-relaxed font-light tracking-tight max-w-2xl mx-auto">
               Advancing scientific knowledge across critical domains
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="border border-gray-200 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Infectious Diseases</h3>
+              <h3 className="text-xl font-medium text-gray-900 mb-3">Infectious Diseases</h3>
               <ul className="space-y-2 text-gray-600">
                 <li>• Emerging pathogen surveillance</li>
                 <li>• Vaccine development support</li>
@@ -173,7 +173,7 @@ export default function MicrobiologyServicesPage() {
             </div>
 
             <div className="border border-gray-200 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Biotechnology</h3>
+              <h3 className="text-xl font-medium text-gray-900 mb-3">Biotechnology</h3>
               <ul className="space-y-2 text-gray-600">
                 <li>• Enzyme engineering</li>
                 <li>• Metabolic pathway optimization</li>
@@ -183,7 +183,7 @@ export default function MicrobiologyServicesPage() {
             </div>
 
             <div className="border border-gray-200 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Environmental Microbiology</h3>
+              <h3 className="text-xl font-medium text-gray-900 mb-3">Environmental Microbiology</h3>
               <ul className="space-y-2 text-gray-600">
                 <li>• Bioremediation strategies</li>
                 <li>• Water quality assessment</li>
@@ -193,7 +193,7 @@ export default function MicrobiologyServicesPage() {
             </div>
 
             <div className="border border-gray-200 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Food & Agriculture</h3>
+              <h3 className="text-xl font-medium text-gray-900 mb-3">Food & Agriculture</h3>
               <ul className="space-y-2 text-gray-600">
                 <li>• Food safety testing</li>
                 <li>• Probiotic development</li>
@@ -208,7 +208,7 @@ export default function MicrobiologyServicesPage() {
       {/* CTA */}
       <section className="py-20 bg-gradient-to-r from-green-600 to-emerald-700">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-light text-white mb-4">
             Advance Your Microbiology Research
           </h2>
           <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
@@ -216,7 +216,7 @@ export default function MicrobiologyServicesPage() {
           </p>
           <Link
             href="/contact"
-            className="inline-block px-8 py-3 text-lg font-medium text-green-600 bg-white rounded-md hover:bg-gray-100 transition-colors"
+            className="inline-block px-8 py-3 text-lg font-normal text-green-600 bg-white rounded-md hover:bg-gray-100 transition-colors"
           >
             Discuss Your Research Needs
           </Link>

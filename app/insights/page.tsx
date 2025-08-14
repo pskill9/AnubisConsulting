@@ -94,8 +94,8 @@ export default function InsightsPage() {
       <section className="py-20 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Featured Insight</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-light tracking-tight text-gray-900 mb-3">Featured Insight</h2>
+            <p className="text-gray-700 text-sm leading-relaxed font-light tracking-tight max-w-2xl mx-auto">
               Our latest thinking on transformative technologies and strategies
             </p>
           </div>
@@ -111,10 +111,10 @@ export default function InsightsPage() {
                 />
               </div>
               <div className="p-8 lg:p-12 flex flex-col justify-center">
-                <span className="text-cyan-600 font-semibold text-sm mb-2">
+                <span className="text-cyan-600 font-medium text-sm mb-2">
                   {insights[0].category}
                 </span>
-                <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
+                <h3 className="text-2xl lg:text-3xl font-light text-gray-900 mb-4">
                   {insights[0].title}
                 </h3>
                 <p className="text-gray-600 mb-6">
@@ -171,11 +171,11 @@ export default function InsightsPage() {
                 </div>
                 
                 <div className="p-6">
-                  <span className="text-cyan-600 font-semibold text-sm">
+                  <span className="text-cyan-600 font-medium text-sm">
                     {article.category}
                   </span>
                   
-                  <h3 className="text-lg font-semibold text-gray-900 mt-2 mb-3 line-clamp-2">
+                  <h3 className="text-lg font-medium text-gray-900 mt-2 mb-3 line-clamp-2">
                     {article.title}
                   </h3>
                   
@@ -213,7 +213,7 @@ export default function InsightsPage() {
       <section className="py-20 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-r from-cyan-600 to-blue-700 rounded-2xl p-12 text-center">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-light text-white mb-4">
               Stay Ahead of the Curve
             </h2>
             <p className="text-xl text-cyan-100 mb-8 max-w-2xl mx-auto">
@@ -227,7 +227,7 @@ export default function InsightsPage() {
               />
               <button
                 type="submit"
-                className="px-6 py-3 bg-white text-cyan-600 font-medium rounded-md hover:bg-gray-100 transition-colors"
+                className="px-6 py-3 bg-white text-cyan-600 font-normal rounded-md hover:bg-gray-100 transition-colors"
               >
                 Subscribe
               </button>

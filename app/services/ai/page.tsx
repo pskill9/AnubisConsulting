@@ -16,10 +16,10 @@ export default function AIServicesPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 className="text-3xl font-light tracking-tight text-gray-900 mb-6">
                 Intelligent Solutions for Complex Challenges
               </h2>
-              <p className="text-lg text-gray-600 mb-6">
+              <p className="text-gray-700 text-sm leading-relaxed font-light tracking-tight mb-6">
                 Our AI consulting services leverage the latest advances in machine learning, 
                 deep learning, and natural language processing to create custom solutions 
                 that align with your business objectives.
@@ -63,8 +63,8 @@ export default function AIServicesPage() {
       <section className="py-20 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Core AI Services</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-light tracking-tight text-gray-900 mb-3">Core AI Services</h2>
+            <p className="text-gray-700 text-sm leading-relaxed font-light tracking-tight max-w-2xl mx-auto">
               Comprehensive AI solutions tailored to your industry and use case
             </p>
           </div>
@@ -72,7 +72,7 @@ export default function AIServicesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <Brain className="h-10 w-10 text-cyan-600 mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Machine Learning</h3>
+              <h3 className="text-xl font-medium text-gray-900 mb-3">Machine Learning</h3>
               <p className="text-gray-600 mb-4">
                 Build and deploy custom ML models for classification, regression, clustering, and more.
               </p>
@@ -85,7 +85,7 @@ export default function AIServicesPage() {
 
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <Cpu className="h-10 w-10 text-cyan-600 mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Deep Learning</h3>
+              <h3 className="text-xl font-medium text-gray-900 mb-3">Deep Learning</h3>
               <p className="text-gray-600 mb-4">
                 Neural network architectures for complex pattern recognition and decision-making.
               </p>
@@ -98,7 +98,7 @@ export default function AIServicesPage() {
 
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <Database className="h-10 w-10 text-cyan-600 mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Data Engineering</h3>
+              <h3 className="text-xl font-medium text-gray-900 mb-3">Data Engineering</h3>
               <p className="text-gray-600 mb-4">
                 Build robust data pipelines and infrastructure for AI-ready data processing.
               </p>
@@ -111,7 +111,7 @@ export default function AIServicesPage() {
 
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <BarChart3 className="h-10 w-10 text-cyan-600 mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Predictive Analytics</h3>
+              <h3 className="text-xl font-medium text-gray-900 mb-3">Predictive Analytics</h3>
               <p className="text-gray-600 mb-4">
                 Forecast trends and behaviors to make data-driven business decisions.
               </p>
@@ -124,7 +124,7 @@ export default function AIServicesPage() {
 
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <Shield className="h-10 w-10 text-cyan-600 mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">AI Ethics & Governance</h3>
+              <h3 className="text-xl font-medium text-gray-900 mb-3">AI Ethics & Governance</h3>
               <p className="text-gray-600 mb-4">
                 Ensure responsible AI deployment with bias mitigation and compliance frameworks.
               </p>
@@ -137,7 +137,7 @@ export default function AIServicesPage() {
 
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <Zap className="h-10 w-10 text-cyan-600 mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">AI Automation</h3>
+              <h3 className="text-xl font-medium text-gray-900 mb-3">AI Automation</h3>
               <p className="text-gray-600 mb-4">
                 Automate repetitive tasks and optimize workflows with intelligent systems.
               </p>
@@ -155,15 +155,15 @@ export default function AIServicesPage() {
       <section className="py-20 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Industry Applications</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-light tracking-tight text-gray-900 mb-3">Industry Applications</h2>
+            <p className="text-gray-700 text-sm leading-relaxed font-light tracking-tight max-w-2xl mx-auto">
               Proven AI solutions across diverse sectors
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="border border-gray-200 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Healthcare & Life Sciences</h3>
+              <h3 className="text-xl font-medium text-gray-900 mb-3">Healthcare & Life Sciences</h3>
               <ul className="space-y-2 text-gray-600">
                 <li>• Diagnostic imaging analysis</li>
                 <li>• Drug discovery acceleration</li>
@@ -173,7 +173,7 @@ export default function AIServicesPage() {
             </div>
 
             <div className="border border-gray-200 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Financial Services</h3>
+              <h3 className="text-xl font-medium text-gray-900 mb-3">Financial Services</h3>
               <ul className="space-y-2 text-gray-600">
                 <li>• Fraud detection systems</li>
                 <li>• Credit risk assessment</li>
@@ -183,7 +183,7 @@ export default function AIServicesPage() {
             </div>
 
             <div className="border border-gray-200 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Retail & E-commerce</h3>
+              <h3 className="text-xl font-medium text-gray-900 mb-3">Retail & E-commerce</h3>
               <ul className="space-y-2 text-gray-600">
                 <li>• Recommendation engines</li>
                 <li>• Demand forecasting</li>
@@ -193,7 +193,7 @@ export default function AIServicesPage() {
             </div>
 
             <div className="border border-gray-200 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Manufacturing</h3>
+              <h3 className="text-xl font-medium text-gray-900 mb-3">Manufacturing</h3>
               <ul className="space-y-2 text-gray-600">
                 <li>• Predictive maintenance</li>
                 <li>• Quality control automation</li>
@@ -208,7 +208,7 @@ export default function AIServicesPage() {
       {/* CTA */}
       <section className="py-20 bg-gradient-to-r from-cyan-600 to-blue-700">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-light text-white mb-4">
             Ready to Harness the Power of AI?
           </h2>
           <p className="text-xl text-cyan-100 mb-8 max-w-2xl mx-auto">
@@ -216,7 +216,7 @@ export default function AIServicesPage() {
           </p>
           <Link
             href="/contact"
-            className="inline-block px-8 py-3 text-lg font-medium text-cyan-600 bg-white rounded-md hover:bg-gray-100 transition-colors"
+            className="inline-block px-8 py-3 text-lg font-normal text-cyan-600 bg-white rounded-md hover:bg-gray-100 transition-colors"
           >
             Schedule AI Consultation
           </Link>

@@ -34,7 +34,7 @@ export function Navigation() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
               <div className="h-8 w-8 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg" />
-              <span className="text-xl font-semibold text-gray-900">Anubis</span>
+              <span className="text-xl font-light text-gray-900">Anubis</span>
             </Link>
           </div>
 
@@ -47,7 +47,7 @@ export function Navigation() {
                       <button
                         onClick={() => setServicesOpen(!servicesOpen)}
                         className={cn(
-                          "flex items-center space-x-1 px-3 py-2 text-sm font-medium rounded-md transition-colors",
+                          "flex items-center space-x-1 px-3 py-2 text-sm font-light rounded-md transition-colors",
                           pathname.startsWith(item.href)
                             ? "text-cyan-600"
                             : "text-gray-700 hover:text-gray-900"
@@ -86,7 +86,7 @@ export function Navigation() {
                     <Link
                       href={item.href}
                       className={cn(
-                        "px-3 py-2 text-sm font-medium rounded-md transition-colors",
+                        "px-3 py-2 text-sm font-light rounded-md transition-colors",
                         pathname === item.href
                           ? "text-cyan-600"
                           : "text-gray-700 hover:text-gray-900"
@@ -99,7 +99,7 @@ export function Navigation() {
               ))}
               <Link
                 href="/contact"
-                className="ml-4 px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-cyan-500 to-blue-600 rounded-md hover:from-cyan-600 hover:to-blue-700 transition-all"
+                className="ml-4 px-4 py-2 text-sm font-normal text-white bg-gradient-to-r from-cyan-500 to-blue-600 rounded-md hover:from-cyan-600 hover:to-blue-700 transition-all"
               >
                 Book Discovery Call
               </Link>
@@ -130,7 +130,7 @@ export function Navigation() {
                   <>
                     <button
                       onClick={() => setServicesOpen(!servicesOpen)}
-                      className="w-full text-left flex items-center justify-between px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
+                      className="w-full text-left flex items-center justify-between px-3 py-2 text-base font-light text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
                     >
                       {item.name}
                       <ChevronRight
@@ -162,7 +162,7 @@ export function Navigation() {
                 ) : (
                   <Link
                     href={item.href}
-                    className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
+                    className="block px-3 py-2 text-base font-light text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     {item.name}
@@ -172,7 +172,7 @@ export function Navigation() {
             ))}
             <Link
               href="/contact"
-              className="block px-3 py-2 text-base font-medium text-white bg-gradient-to-r from-cyan-500 to-blue-600 rounded-md hover:from-cyan-600 hover:to-blue-700"
+              className="block px-3 py-2 text-base font-normal text-white bg-gradient-to-r from-cyan-500 to-blue-600 rounded-md hover:from-cyan-600 hover:to-blue-700"
               onClick={() => setMobileMenuOpen(false)}
             >
               Book Discovery Call

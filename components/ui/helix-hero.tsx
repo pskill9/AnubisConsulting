@@ -153,7 +153,7 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ title, description }) => {
       return (
-    <section className="relative h-screen w-screen font-sans tracking-tight text-gray-900 bg-white overflow-hidden">
+    <section className="relative h-screen w-screen tracking-tight text-gray-900 bg-white overflow-hidden">
 
       <div className="absolute inset-0 z-0">
         <Scene />

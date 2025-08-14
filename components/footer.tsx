@@ -9,7 +9,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="h-8 w-8 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg" />
-              <span className="text-xl font-semibold text-white">Anubis</span>
+              <span className="text-xl font-medium text-white">Anubis</span>
             </div>
             <p className="text-sm text-gray-400">
               Where science meets technology. AI, Microbiology, and Startup expertise under one roof.
@@ -17,7 +17,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="text-white font-semibold mb-4">Services</h3>
+            <h3 className="text-white font-medium mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/services/ai" className="text-sm hover:text-cyan-400 transition-colors">
@@ -38,7 +38,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="text-white font-semibold mb-4">Company</h3>
+            <h3 className="text-white font-medium mb-4">Company</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/about" className="text-sm hover:text-cyan-400 transition-colors">
@@ -64,7 +64,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="text-white font-semibold mb-4">Connect</h3>
+            <h3 className="text-white font-medium mb-4">Connect</h3>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-cyan-400 transition-colors">
                 <Mail className="h-5 w-5" />
@@ -82,7 +82,7 @@ export function Footer() {
             <div className="mt-4">
               <Link
                 href="/contact"
-                className="inline-block px-6 py-2 text-sm font-medium text-white bg-gradient-to-r from-cyan-500 to-blue-600 rounded-md hover:from-cyan-600 hover:to-blue-700 transition-all"
+                className="inline-block px-6 py-2 text-sm font-normal text-white bg-gradient-to-r from-cyan-500 to-blue-600 rounded-md hover:from-cyan-600 hover:to-blue-700 transition-all"
               >
                 Schedule Consultation
               </Link>

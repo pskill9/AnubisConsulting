@@ -39,8 +39,8 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Get in Touch</h2>
-              <p className="text-lg text-gray-600 mb-8">
+              <h2 className="text-3xl font-light tracking-tight text-gray-900 mb-6">Get in Touch</h2>
+              <p className="text-gray-700 text-sm leading-relaxed font-light tracking-tight mb-8">
                 Whether you're looking to implement AI solutions, advance microbiology research, 
                 or scale your startup, we're here to help. Reach out to discuss your project.
               </p>
@@ -49,7 +49,7 @@ export default function ContactPage() {
                 <div className="flex items-start">
                   <Mail className="h-6 w-6 text-cyan-600 mt-1" />
                   <div className="ml-4">
-                    <h3 className="font-semibold text-gray-900">Email</h3>
+                    <h3 className="font-medium text-gray-900">Email</h3>
                     <p className="text-gray-600">contact@anubisconsulting.com</p>
                   </div>
                 </div>
@@ -57,7 +57,7 @@ export default function ContactPage() {
                 <div className="flex items-start">
                   <Phone className="h-6 w-6 text-cyan-600 mt-1" />
                   <div className="ml-4">
-                    <h3 className="font-semibold text-gray-900">Phone</h3>
+                    <h3 className="font-medium text-gray-900">Phone</h3>
                     <p className="text-gray-600">+1 (555) 123-4567</p>
                   </div>
                 </div>
@@ -65,7 +65,7 @@ export default function ContactPage() {
                 <div className="flex items-start">
                   <MapPin className="h-6 w-6 text-cyan-600 mt-1" />
                   <div className="ml-4">
-                    <h3 className="font-semibold text-gray-900">Office</h3>
+                    <h3 className="font-medium text-gray-900">Office</h3>
                     <p className="text-gray-600">
                       123 Innovation Drive<br />
                       San Francisco, CA 94105<br />
@@ -77,7 +77,7 @@ export default function ContactPage() {
                 <div className="flex items-start">
                   <Clock className="h-6 w-6 text-cyan-600 mt-1" />
                   <div className="ml-4">
-                    <h3 className="font-semibold text-gray-900">Business Hours</h3>
+                    <h3 className="font-medium text-gray-900">Business Hours</h3>
                     <p className="text-gray-600">
                       Monday - Friday: 9:00 AM - 6:00 PM PST<br />
                       Saturday - Sunday: Closed
@@ -87,20 +87,20 @@ export default function ContactPage() {
               </div>
 
               <div className="bg-gradient-to-r from-cyan-50 to-blue-50 rounded-lg p-6">
-                <h3 className="font-semibold text-gray-900 mb-3 flex items-center">
+                <h3 className="font-medium text-gray-900 mb-3 flex items-center">
                   <Calendar className="h-5 w-5 text-cyan-600 mr-2" />
                   Schedule a Discovery Call
                 </h3>
                 <p className="text-gray-600 mb-4">
                   Book a 30-minute consultation to discuss your specific needs and explore how we can help.
                 </p>
-                <button className="w-full px-4 py-2 bg-gradient-to-r from-cyan-600 to-blue-700 text-white font-medium rounded-md hover:from-cyan-700 hover:to-blue-800 transition-all">
+                <button className="w-full px-4 py-2 bg-gradient-to-r from-cyan-600 to-blue-700 text-white font-normal rounded-md hover:from-cyan-700 hover:to-blue-800 transition-all">
                   Book Discovery Call
                 </button>
               </div>
 
               <div className="mt-8">
-                <h3 className="font-semibold text-gray-900 mb-4">Connect With Us</h3>
+                <h3 className="font-medium text-gray-900 mb-4">Connect With Us</h3>
                 <div className="flex space-x-4">
                   <a href="#" className="text-gray-600 hover:text-cyan-600 transition-colors">
                     <Linkedin className="h-6 w-6" />
@@ -117,11 +117,11 @@ export default function ContactPage() {
 
             {/* Contact Form */}
             <div className="bg-gray-50 rounded-lg p-8">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Send Us a Message</h2>
+              <h2 className="text-2xl font-light text-gray-900 mb-6">Send Us a Message</h2>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="name" className="block text-sm font-normal text-gray-700 mb-2">
                       Full Name *
                     </label>
                     <input
@@ -136,7 +136,7 @@ export default function ContactPage() {
                   </div>
 
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="email" className="block text-sm font-normal text-gray-700 mb-2">
                       Email Address *
                     </label>
                     <input
@@ -152,7 +152,7 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="company" className="block text-sm font-normal text-gray-700 mb-2">
                     Company / Organization
                   </label>
                   <input
@@ -166,7 +166,7 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="service" className="block text-sm font-normal text-gray-700 mb-2">
                     Service of Interest *
                   </label>
                   <select
@@ -187,7 +187,7 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="message" className="block text-sm font-normal text-gray-700 mb-2">
                     Message *
                   </label>
                   <textarea
@@ -204,7 +204,7 @@ export default function ContactPage() {
 
                 <button
                   type="submit"
-                  className="w-full px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-700 text-white font-medium rounded-md hover:from-cyan-700 hover:to-blue-800 transition-all flex items-center justify-center"
+                  className="w-full px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-700 text-white font-normal rounded-md hover:from-cyan-700 hover:to-blue-800 transition-all flex items-center justify-center"
                 >
                   <Send className="h-5 w-5 mr-2" />
                   Send Message
@@ -219,8 +219,8 @@ export default function ContactPage() {
       <section className="py-20 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Global Presence</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-light tracking-tight text-gray-900 mb-3">Global Presence</h2>
+            <p className="text-gray-700 text-sm leading-relaxed font-light tracking-tight max-w-2xl mx-auto">
               With offices and partners worldwide, we're positioned to serve clients globally
             </p>
           </div>
@@ -230,7 +230,7 @@ export default function ContactPage() {
               <div className="w-12 h-12 bg-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <MapPin className="h-6 w-6 text-cyan-600" />
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">San Francisco</h3>
+              <h3 className="text-lg font-medium text-gray-900 mb-2">San Francisco</h3>
               <p className="text-gray-600 text-sm">
                 123 Innovation Drive<br />
                 San Francisco, CA 94105<br />
@@ -242,7 +242,7 @@ export default function ContactPage() {
               <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <MapPin className="h-6 w-6 text-green-600" />
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">London</h3>
+              <h3 className="text-lg font-medium text-gray-900 mb-2">London</h3>
               <p className="text-gray-600 text-sm">
                 456 Research Park<br />
                 London, EC2A 3PQ<br />
@@ -254,7 +254,7 @@ export default function ContactPage() {
               <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <MapPin className="h-6 w-6 text-purple-600" />
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Singapore</h3>
+              <h3 className="text-lg font-medium text-gray-900 mb-2">Singapore</h3>
               <p className="text-gray-600 text-sm">
                 789 Technology Hub<br />
                 Singapore 138632<br />
@@ -269,15 +269,15 @@ export default function ContactPage() {
       <section className="py-20 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-light tracking-tight text-gray-900 mb-3">Frequently Asked Questions</h2>
+            <p className="text-gray-700 text-sm leading-relaxed font-light tracking-tight max-w-2xl mx-auto">
               Common questions about our services and engagement process
             </p>
           </div>
 
           <div className="max-w-3xl mx-auto space-y-6">
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="font-semibold text-gray-900 mb-2">
+              <h3 className="font-medium text-gray-900 mb-2">
                 What is your typical engagement timeline?
               </h3>
               <p className="text-gray-600">
@@ -288,7 +288,7 @@ export default function ContactPage() {
             </div>
 
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="font-semibold text-gray-900 mb-2">
+              <h3 className="font-medium text-gray-900 mb-2">
                 Do you work with early-stage startups?
               </h3>
               <p className="text-gray-600">
@@ -299,7 +299,7 @@ export default function ContactPage() {
             </div>
 
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="font-semibold text-gray-900 mb-2">
+              <h3 className="font-medium text-gray-900 mb-2">
                 Can you help with regulatory compliance?
               </h3>
               <p className="text-gray-600">
@@ -310,7 +310,7 @@ export default function ContactPage() {
             </div>
 
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="font-semibold text-gray-900 mb-2">
+              <h3 className="font-medium text-gray-900 mb-2">
                 What industries do you specialize in?
               </h3>
               <p className="text-gray-600">
