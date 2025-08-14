@@ -49,24 +49,24 @@ export default function ContactPage() {
                 <div className="flex items-start">
                   <Mail className="h-6 w-6 text-cyan-600 mt-1" />
                   <div className="ml-4">
-                    <h3 className="font-medium text-gray-900">Email</h3>
-                    <p className="text-gray-600">contact@anubisconsulting.com</p>
+                    <h3 className="font-light tracking-tight text-gray-900">Email</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">contact@anubisconsulting.com</p>
                   </div>
                 </div>
 
                 <div className="flex items-start">
                   <Phone className="h-6 w-6 text-cyan-600 mt-1" />
                   <div className="ml-4">
-                    <h3 className="font-medium text-gray-900">Phone</h3>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <h3 className="font-light tracking-tight text-gray-900">Phone</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">+1 (555) 123-4567</p>
                   </div>
                 </div>
 
                 <div className="flex items-start">
                   <MapPin className="h-6 w-6 text-cyan-600 mt-1" />
                   <div className="ml-4">
-                    <h3 className="font-medium text-gray-900">Office</h3>
-                    <p className="text-gray-600">
+                    <h3 className="font-light tracking-tight text-gray-900">Office</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">
                       123 Innovation Drive<br />
                       San Francisco, CA 94105<br />
                       United States
@@ -77,8 +77,8 @@ export default function ContactPage() {
                 <div className="flex items-start">
                   <Clock className="h-6 w-6 text-cyan-600 mt-1" />
                   <div className="ml-4">
-                    <h3 className="font-medium text-gray-900">Business Hours</h3>
-                    <p className="text-gray-600">
+                    <h3 className="font-light tracking-tight text-gray-900">Business Hours</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">
                       Monday - Friday: 9:00 AM - 6:00 PM PST<br />
                       Saturday - Sunday: Closed
                     </p>
@@ -87,14 +87,14 @@ export default function ContactPage() {
               </div>
 
               <div className="bg-gradient-to-r from-cyan-50 to-blue-50 rounded-lg p-6">
-                <h3 className="font-medium text-gray-900 mb-3 flex items-center">
+                <h3 className="font-light tracking-tight text-gray-900 mb-3 flex items-center">
                   <Calendar className="h-5 w-5 text-cyan-600 mr-2" />
                   Schedule a Discovery Call
                 </h3>
-                <p className="text-gray-600 mb-4">
+                <p className="text-gray-600 mb-4 text-sm leading-relaxed font-light tracking-tight">
                   Book a 30-minute consultation to discuss your specific needs and explore how we can help.
                 </p>
-                <button className="w-full px-4 py-2 bg-gradient-to-r from-cyan-600 to-blue-700 text-white font-normal rounded-md hover:from-cyan-700 hover:to-blue-800 transition-all">
+                <button className="w-full px-4 py-2 bg-gradient-to-r from-cyan-600 to-blue-700 text-white font-light rounded-md hover:from-cyan-700 hover:to-blue-800 transition-all">
                   Book Discovery Call
                 </button>
               </div>
@@ -117,11 +117,11 @@ export default function ContactPage() {
 
             {/* Contact Form */}
             <div className="bg-gray-50 rounded-lg p-8">
-              <h2 className="text-2xl font-light text-gray-900 mb-6">Send Us a Message</h2>
+              <h2 className="text-2xl font-light tracking-tight text-gray-900 mb-6">Send Us a Message</h2>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-normal text-gray-700 mb-2">
+                    <label htmlFor="name" className="block text-sm font-light text-gray-700 mb-2">
                       Full Name *
                     </label>
                     <input
@@ -136,7 +136,7 @@ export default function ContactPage() {
                   </div>
 
                   <div>
-                    <label htmlFor="email" className="block text-sm font-normal text-gray-700 mb-2">
+                    <label htmlFor="email" className="block text-sm font-light text-gray-700 mb-2">
                       Email Address *
                     </label>
                     <input
@@ -152,7 +152,7 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="company" className="block text-sm font-normal text-gray-700 mb-2">
+                  <label htmlFor="company" className="block text-sm font-light text-gray-700 mb-2">
                     Company / Organization
                   </label>
                   <input
@@ -166,7 +166,7 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="service" className="block text-sm font-normal text-gray-700 mb-2">
+                  <label htmlFor="service" className="block text-sm font-light text-gray-700 mb-2">
                     Service of Interest *
                   </label>
                   <select
@@ -187,7 +187,7 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-normal text-gray-700 mb-2">
+                  <label htmlFor="message" className="block text-sm font-light text-gray-700 mb-2">
                     Message *
                   </label>
                   <textarea
@@ -204,7 +204,7 @@ export default function ContactPage() {
 
                 <button
                   type="submit"
-                  className="w-full px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-700 text-white font-normal rounded-md hover:from-cyan-700 hover:to-blue-800 transition-all flex items-center justify-center"
+                  className="w-full px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-700 text-white font-light rounded-md hover:from-cyan-700 hover:to-blue-800 transition-all flex items-center justify-center"
                 >
                   <Send className="h-5 w-5 mr-2" />
                   Send Message
@@ -230,8 +230,8 @@ export default function ContactPage() {
               <div className="w-12 h-12 bg-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <MapPin className="h-6 w-6 text-cyan-600" />
               </div>
-              <h3 className="text-lg font-medium text-gray-900 mb-2">San Francisco</h3>
-              <p className="text-gray-600 text-sm">
+              <h3 className="text-lg font-light tracking-tight text-gray-900 mb-2">San Francisco</h3>
+              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">
                 123 Innovation Drive<br />
                 San Francisco, CA 94105<br />
                 United States
@@ -242,8 +242,8 @@ export default function ContactPage() {
               <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <MapPin className="h-6 w-6 text-green-600" />
               </div>
-              <h3 className="text-lg font-medium text-gray-900 mb-2">London</h3>
-              <p className="text-gray-600 text-sm">
+              <h3 className="text-lg font-light tracking-tight text-gray-900 mb-2">London</h3>
+              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">
                 456 Research Park<br />
                 London, EC2A 3PQ<br />
                 United Kingdom
@@ -254,8 +254,8 @@ export default function ContactPage() {
               <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <MapPin className="h-6 w-6 text-purple-600" />
               </div>
-              <h3 className="text-lg font-medium text-gray-900 mb-2">Singapore</h3>
-              <p className="text-gray-600 text-sm">
+              <h3 className="text-lg font-light tracking-tight text-gray-900 mb-2">Singapore</h3>
+              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">
                 789 Technology Hub<br />
                 Singapore 138632<br />
                 Singapore
@@ -277,10 +277,10 @@ export default function ContactPage() {
 
           <div className="max-w-3xl mx-auto space-y-6">
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="font-medium text-gray-900 mb-2">
+              <h3 className="font-light tracking-tight text-gray-900 mb-2">
                 What is your typical engagement timeline?
               </h3>
-              <p className="text-gray-600">
+              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">
                 Project timelines vary based on scope and complexity. AI consulting projects typically 
                 range from 3-12 months, microbiology research can span 6-24 months, and startup advisory 
                 engagements are often ongoing with initial intensive periods of 3-6 months.
@@ -288,10 +288,10 @@ export default function ContactPage() {
             </div>
 
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="font-medium text-gray-900 mb-2">
+              <h3 className="font-light tracking-tight text-gray-900 mb-2">
                 Do you work with early-stage startups?
               </h3>
-              <p className="text-gray-600">
+              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">
                 Yes, we work with startups at all stages, from pre-seed to growth stage. Our advisory 
                 services are tailored to meet the specific needs and budget constraints of early-stage 
                 companies while providing maximum value.
@@ -299,10 +299,10 @@ export default function ContactPage() {
             </div>
 
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="font-medium text-gray-900 mb-2">
+              <h3 className="font-light tracking-tight text-gray-900 mb-2">
                 Can you help with regulatory compliance?
               </h3>
-              <p className="text-gray-600">
+              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">
                 Our team has extensive experience navigating regulatory requirements in healthcare, 
                 biotechnology, and AI. We provide guidance on compliance strategies and can connect 
                 you with specialized regulatory partners when needed.
@@ -310,10 +310,10 @@ export default function ContactPage() {
             </div>
 
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="font-medium text-gray-900 mb-2">
+              <h3 className="font-light tracking-tight text-gray-900 mb-2">
                 What industries do you specialize in?
               </h3>
-              <p className="text-gray-600">
+              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">
                 While we work across various industries, we have deep expertise in healthcare, 
                 biotechnology, pharmaceuticals, technology, and manufacturing. Our interdisciplinary 
                 approach allows us to bring cross-industry insights to every engagement.

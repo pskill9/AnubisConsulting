@@ -165,7 +165,7 @@ export default function CaseStudiesPage() {
                   </div>
                   
                   <div className="p-6">
-                    <h3 className="text-lg font-medium text-gray-900 mb-2 line-clamp-2">
+                    <h3 className="text-lg font-light tracking-tight text-gray-900 mb-2 line-clamp-2">
                       {study.title}
                     </h3>
                     
@@ -174,12 +174,12 @@ export default function CaseStudiesPage() {
                       {study.client}
                     </p>
                     
-                    <p className="text-gray-600 text-sm mb-4 line-clamp-3">
+                    <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight mb-4 line-clamp-3">
                       {study.challenge}
                     </p>
                     
                     <div className="mb-4">
-                      <h4 className="text-sm font-medium text-gray-900 mb-2">Key Results:</h4>
+                      <h4 className="text-sm font-light text-gray-900 mb-2">Key Results:</h4>
                       <ul className="text-sm text-gray-600 space-y-1">
                         {study.results.slice(0, 2).map((result, index) => (
                           <li key={index}>• {result}</li>
@@ -214,20 +214,20 @@ export default function CaseStudiesPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white rounded-lg p-6 text-center shadow-sm">
-              <div className="text-4xl font-medium text-cyan-600 mb-2">150+</div>
-              <div className="text-gray-600">Projects Delivered</div>
+              <div className="text-4xl font-light tracking-tight text-cyan-600 mb-2">150+</div>
+              <div className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">Projects Delivered</div>
             </div>
             <div className="bg-white rounded-lg p-6 text-center shadow-sm">
-              <div className="text-4xl font-medium text-green-600 mb-2">$500M+</div>
-              <div className="text-gray-600">Value Created</div>
+              <div className="text-4xl font-light tracking-tight text-green-600 mb-2">$500M+</div>
+              <div className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">Value Created</div>
             </div>
             <div className="bg-white rounded-lg p-6 text-center shadow-sm">
-              <div className="text-4xl font-medium text-purple-600 mb-2">95%</div>
-              <div className="text-gray-600">Client Satisfaction</div>
+              <div className="text-4xl font-light tracking-tight text-purple-600 mb-2">95%</div>
+              <div className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">Client Satisfaction</div>
             </div>
             <div className="bg-white rounded-lg p-6 text-center shadow-sm">
-              <div className="text-4xl font-medium text-orange-600 mb-2">25+</div>
-              <div className="text-gray-600">Industry Awards</div>
+              <div className="text-4xl font-light tracking-tight text-orange-600 mb-2">25+</div>
+              <div className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">Industry Awards</div>
             </div>
           </div>
         </div>
@@ -245,20 +245,20 @@ export default function CaseStudiesPage() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <div className="text-center">
-              <div className="text-2xl font-medium text-gray-900">Healthcare</div>
-              <div className="text-gray-600">35% of projects</div>
+              <div className="text-2xl font-light tracking-tight text-gray-900">Healthcare</div>
+              <div className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">35% of projects</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-medium text-gray-900">Technology</div>
-              <div className="text-gray-600">25% of projects</div>
+              <div className="text-2xl font-light tracking-tight text-gray-900">Technology</div>
+              <div className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">25% of projects</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-medium text-gray-900">Biotechnology</div>
-              <div className="text-gray-600">20% of projects</div>
+              <div className="text-2xl font-light tracking-tight text-gray-900">Biotechnology</div>
+              <div className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">20% of projects</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-medium text-gray-900">Manufacturing</div>
-              <div className="text-gray-600">20% of projects</div>
+              <div className="text-2xl font-light tracking-tight text-gray-900">Manufacturing</div>
+              <div className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">20% of projects</div>
             </div>
           </div>
         </div>

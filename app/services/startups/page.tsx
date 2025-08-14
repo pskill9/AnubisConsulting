@@ -27,23 +27,23 @@ export default function StartupServicesPage() {
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-purple-600 flex-shrink-0 mt-0.5" />
-                  <span className="ml-3 text-gray-700">Business model validation and refinement</span>
+                  <span className="ml-3 text-gray-700 font-light">Business model validation and refinement</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-purple-600 flex-shrink-0 mt-0.5" />
-                  <span className="ml-3 text-gray-700">Fundraising strategy and investor relations</span>
+                  <span className="ml-3 text-gray-700 font-light">Fundraising strategy and investor relations</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-purple-600 flex-shrink-0 mt-0.5" />
-                  <span className="ml-3 text-gray-700">Product-market fit optimization</span>
+                  <span className="ml-3 text-gray-700 font-light">Product-market fit optimization</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-purple-600 flex-shrink-0 mt-0.5" />
-                  <span className="ml-3 text-gray-700">Go-to-market strategy development</span>
+                  <span className="ml-3 text-gray-700 font-light">Go-to-market strategy development</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-purple-600 flex-shrink-0 mt-0.5" />
-                  <span className="ml-3 text-gray-700">Technical architecture and roadmap</span>
+                  <span className="ml-3 text-gray-700 font-light">Technical architecture and roadmap</span>
                 </li>
               </ul>
             </div>
@@ -72,11 +72,11 @@ export default function StartupServicesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <Lightbulb className="h-10 w-10 text-purple-600 mb-4" />
-              <h3 className="text-xl font-medium text-gray-900 mb-3">Ideation & Validation</h3>
-              <p className="text-gray-600 mb-4">
+              <h3 className="text-xl font-light tracking-tight text-gray-900 mb-3">Ideation & Validation</h3>
+              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight mb-4">
                 Transform ideas into viable business opportunities with market validation.
               </p>
-              <ul className="text-sm text-gray-600 space-y-2">
+              <ul className="text-sm text-gray-600 space-y-2 font-light">
                 <li>• Market research & analysis</li>
                 <li>• MVP development strategy</li>
                 <li>• Customer discovery</li>
@@ -85,11 +85,11 @@ export default function StartupServicesPage() {
 
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <DollarSign className="h-10 w-10 text-purple-600 mb-4" />
-              <h3 className="text-xl font-medium text-gray-900 mb-3">Fundraising Support</h3>
-              <p className="text-gray-600 mb-4">
+              <h3 className="text-xl font-light tracking-tight text-gray-900 mb-3">Fundraising Support</h3>
+              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight mb-4">
                 Navigate the funding landscape from pre-seed to Series A and beyond.
               </p>
-              <ul className="text-sm text-gray-600 space-y-2">
+              <ul className="text-sm text-gray-600 space-y-2 font-light">
                 <li>• Pitch deck creation</li>
                 <li>• Investor introductions</li>
                 <li>• Valuation strategy</li>
@@ -98,11 +98,11 @@ export default function StartupServicesPage() {
 
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <Target className="h-10 w-10 text-purple-600 mb-4" />
-              <h3 className="text-xl font-medium text-gray-900 mb-3">Go-to-Market Strategy</h3>
-              <p className="text-gray-600 mb-4">
+              <h3 className="text-xl font-light tracking-tight text-gray-900 mb-3">Go-to-Market Strategy</h3>
+              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight mb-4">
                 Build and execute effective strategies to capture your target market.
               </p>
-              <ul className="text-sm text-gray-600 space-y-2">
+              <ul className="text-sm text-gray-600 space-y-2 font-light">
                 <li>• Market positioning</li>
                 <li>• Sales strategy development</li>
                 <li>• Channel partnerships</li>
@@ -111,11 +111,11 @@ export default function StartupServicesPage() {
 
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <TrendingUp className="h-10 w-10 text-purple-600 mb-4" />
-              <h3 className="text-xl font-medium text-gray-900 mb-3">Growth & Scaling</h3>
-              <p className="text-gray-600 mb-4">
+              <h3 className="text-xl font-light tracking-tight text-gray-900 mb-3">Growth & Scaling</h3>
+              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight mb-4">
                 Accelerate growth with proven frameworks and operational excellence.
               </p>
-              <ul className="text-sm text-gray-600 space-y-2">
+              <ul className="text-sm text-gray-600 space-y-2 font-light">
                 <li>• Growth metrics & KPIs</li>
                 <li>• Operational optimization</li>
                 <li>• International expansion</li>
@@ -124,11 +124,11 @@ export default function StartupServicesPage() {
 
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <Users className="h-10 w-10 text-purple-600 mb-4" />
-              <h3 className="text-xl font-medium text-gray-900 mb-3">Team Building</h3>
-              <p className="text-gray-600 mb-4">
+              <h3 className="text-xl font-light tracking-tight text-gray-900 mb-3">Team Building</h3>
+              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight mb-4">
                 Build world-class teams with the right talent and culture.
               </p>
-              <ul className="text-sm text-gray-600 space-y-2">
+              <ul className="text-sm text-gray-600 space-y-2 font-light">
                 <li>• Hiring strategy</li>
                 <li>• Organizational design</li>
                 <li>• Leadership coaching</li>
@@ -137,11 +137,11 @@ export default function StartupServicesPage() {
 
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <Rocket className="h-10 w-10 text-purple-600 mb-4" />
-              <h3 className="text-xl font-medium text-gray-900 mb-3">Exit Strategy</h3>
-              <p className="text-gray-600 mb-4">
+              <h3 className="text-xl font-light tracking-tight text-gray-900 mb-3">Exit Strategy</h3>
+              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight mb-4">
                 Maximize value through strategic exits and acquisitions.
               </p>
-              <ul className="text-sm text-gray-600 space-y-2">
+              <ul className="text-sm text-gray-600 space-y-2 font-light">
                 <li>• M&A preparation</li>
                 <li>• Strategic partnerships</li>
                 <li>• IPO readiness</li>
@@ -167,14 +167,14 @@ export default function StartupServicesPage() {
                 <div className="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-medium inline-block mb-3">
                   Pre-Seed / Seed Stage
                 </div>
-                <h3 className="text-xl font-medium text-gray-900 mb-3">Foundation Building</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-light tracking-tight text-gray-900 mb-3">Foundation Building</h3>
+                <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">
                   Validate your concept, build your MVP, secure initial funding, and establish 
                   product-market fit. We help you lay the groundwork for sustainable growth.
                 </p>
               </div>
               <div className="flex-1">
-                <ul className="space-y-2 text-gray-600">
+                <ul className="space-y-2 text-gray-600 font-light">
                   <li>• Business model canvas development</li>
                   <li>• Technical architecture planning</li>
                   <li>• Angel investor connections</li>
@@ -188,14 +188,14 @@ export default function StartupServicesPage() {
                 <div className="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm font-medium inline-block mb-3">
                   Series A / B
                 </div>
-                <h3 className="text-xl font-medium text-gray-900 mb-3">Scale & Expand</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-light tracking-tight text-gray-900 mb-3">Scale & Expand</h3>
+                <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">
                   Accelerate growth, expand market reach, optimize operations, and prepare for 
                   institutional funding rounds with strategic guidance.
                 </p>
               </div>
               <div className="flex-1">
-                <ul className="space-y-2 text-gray-600">
+                <ul className="space-y-2 text-gray-600 font-light">
                   <li>• VC pitch preparation</li>
                   <li>• Scaling operations framework</li>
                   <li>• Market expansion strategy</li>
@@ -209,14 +209,14 @@ export default function StartupServicesPage() {
                 <div className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium inline-block mb-3">
                   Growth Stage
                 </div>
-                <h3 className="text-xl font-medium text-gray-900 mb-3">Market Leadership</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-light tracking-tight text-gray-900 mb-3">Market Leadership</h3>
+                <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">
                   Establish market dominance, prepare for exit opportunities, optimize for 
                   profitability, and build sustainable competitive advantages.
                 </p>
               </div>
               <div className="flex-1">
-                <ul className="space-y-2 text-gray-600">
+                <ul className="space-y-2 text-gray-600 font-light">
                   <li>• International expansion</li>
                   <li>• Strategic acquisition planning</li>
                   <li>• IPO preparation</li>

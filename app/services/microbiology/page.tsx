@@ -27,23 +27,23 @@ export default function MicrobiologyServicesPage() {
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-green-600 flex-shrink-0 mt-0.5" />
-                  <span className="ml-3 text-gray-700">Pathogen identification and characterization</span>
+                  <span className="ml-3 text-gray-700 font-light">Pathogen identification and characterization</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-green-600 flex-shrink-0 mt-0.5" />
-                  <span className="ml-3 text-gray-700">Antimicrobial resistance testing</span>
+                  <span className="ml-3 text-gray-700 font-light">Antimicrobial resistance testing</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-green-600 flex-shrink-0 mt-0.5" />
-                  <span className="ml-3 text-gray-700">Microbiome analysis and profiling</span>
+                  <span className="ml-3 text-gray-700 font-light">Microbiome analysis and profiling</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-green-600 flex-shrink-0 mt-0.5" />
-                  <span className="ml-3 text-gray-700">Bioprocess optimization</span>
+                  <span className="ml-3 text-gray-700 font-light">Bioprocess optimization</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-green-600 flex-shrink-0 mt-0.5" />
-                  <span className="ml-3 text-gray-700">Environmental microbiology studies</span>
+                  <span className="ml-3 text-gray-700 font-light">Environmental microbiology studies</span>
                 </li>
               </ul>
             </div>
@@ -72,11 +72,11 @@ export default function MicrobiologyServicesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <Microscope className="h-10 w-10 text-green-600 mb-4" />
-              <h3 className="text-xl font-medium text-gray-900 mb-3">Diagnostic Microbiology</h3>
-              <p className="text-gray-600 mb-4">
+              <h3 className="text-xl font-light tracking-tight text-gray-900 mb-3">Diagnostic Microbiology</h3>
+              <p className="text-gray-600 mb-4 text-sm leading-relaxed font-light tracking-tight">
                 Rapid and accurate identification of pathogens using advanced molecular techniques.
               </p>
-              <ul className="text-sm text-gray-600 space-y-2">
+              <ul className="text-sm text-gray-600 space-y-2 font-light">
                 <li>• PCR and qPCR analysis</li>
                 <li>• Next-generation sequencing</li>
                 <li>• MALDI-TOF identification</li>
@@ -85,11 +85,11 @@ export default function MicrobiologyServicesPage() {
 
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <Dna className="h-10 w-10 text-green-600 mb-4" />
-              <h3 className="text-xl font-medium text-gray-900 mb-3">Genomics & Proteomics</h3>
-              <p className="text-gray-600 mb-4">
+              <h3 className="text-xl font-light tracking-tight text-gray-900 mb-3">Genomics & Proteomics</h3>
+              <p className="text-gray-600 mb-4 text-sm leading-relaxed font-light tracking-tight">
                 Comprehensive genetic and protein analysis for research and development.
               </p>
-              <ul className="text-sm text-gray-600 space-y-2">
+              <ul className="text-sm text-gray-600 space-y-2 font-light">
                 <li>• Whole genome sequencing</li>
                 <li>• Metagenomics analysis</li>
                 <li>• Protein expression profiling</li>
@@ -98,11 +98,11 @@ export default function MicrobiologyServicesPage() {
 
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <FlaskRound className="h-10 w-10 text-green-600 mb-4" />
-              <h3 className="text-xl font-medium text-gray-900 mb-3">Fermentation Technology</h3>
-              <p className="text-gray-600 mb-4">
+              <h3 className="text-xl font-light tracking-tight text-gray-900 mb-3">Fermentation Technology</h3>
+              <p className="text-gray-600 mb-4 text-sm leading-relaxed font-light tracking-tight">
                 Optimize bioprocesses for pharmaceutical and industrial applications.
               </p>
-              <ul className="text-sm text-gray-600 space-y-2">
+              <ul className="text-sm text-gray-600 space-y-2 font-light">
                 <li>• Process development</li>
                 <li>• Scale-up optimization</li>
                 <li>• Yield enhancement</li>
@@ -111,11 +111,11 @@ export default function MicrobiologyServicesPage() {
 
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <Shield className="h-10 w-10 text-green-600 mb-4" />
-              <h3 className="text-xl font-medium text-gray-900 mb-3">Antimicrobial Research</h3>
-              <p className="text-gray-600 mb-4">
+              <h3 className="text-xl font-light tracking-tight text-gray-900 mb-3">Antimicrobial Research</h3>
+              <p className="text-gray-600 mb-4 text-sm leading-relaxed font-light tracking-tight">
                 Development and testing of novel antimicrobial compounds and strategies.
               </p>
-              <ul className="text-sm text-gray-600 space-y-2">
+              <ul className="text-sm text-gray-600 space-y-2 font-light">
                 <li>• MIC/MBC determination</li>
                 <li>• Resistance mechanism studies</li>
                 <li>• Biofilm analysis</li>
@@ -124,11 +124,11 @@ export default function MicrobiologyServicesPage() {
 
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <Activity className="h-10 w-10 text-green-600 mb-4" />
-              <h3 className="text-xl font-medium text-gray-900 mb-3">Microbiome Analysis</h3>
-              <p className="text-gray-600 mb-4">
+              <h3 className="text-xl font-light tracking-tight text-gray-900 mb-3">Microbiome Analysis</h3>
+              <p className="text-gray-600 mb-4 text-sm leading-relaxed font-light tracking-tight">
                 Comprehensive profiling of microbial communities and their functions.
               </p>
-              <ul className="text-sm text-gray-600 space-y-2">
+              <ul className="text-sm text-gray-600 space-y-2 font-light">
                 <li>• 16S rRNA sequencing</li>
                 <li>• Functional metagenomics</li>
                 <li>• Dysbiosis assessment</li>
@@ -137,11 +137,11 @@ export default function MicrobiologyServicesPage() {
 
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <Beaker className="h-10 w-10 text-green-600 mb-4" />
-              <h3 className="text-xl font-medium text-gray-900 mb-3">Quality Control</h3>
-              <p className="text-gray-600 mb-4">
+              <h3 className="text-xl font-light tracking-tight text-gray-900 mb-3">Quality Control</h3>
+              <p className="text-gray-600 mb-4 text-sm leading-relaxed font-light tracking-tight">
                 Ensure product safety and compliance with regulatory standards.
               </p>
-              <ul className="text-sm text-gray-600 space-y-2">
+              <ul className="text-sm text-gray-600 space-y-2 font-light">
                 <li>• Sterility testing</li>
                 <li>• Endotoxin analysis</li>
                 <li>• Environmental monitoring</li>
@@ -163,8 +163,8 @@ export default function MicrobiologyServicesPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="border border-gray-200 rounded-lg p-6">
-              <h3 className="text-xl font-medium text-gray-900 mb-3">Infectious Diseases</h3>
-              <ul className="space-y-2 text-gray-600">
+              <h3 className="text-xl font-light tracking-tight text-gray-900 mb-3">Infectious Diseases</h3>
+              <ul className="space-y-2 text-gray-600 font-light">
                 <li>• Emerging pathogen surveillance</li>
                 <li>• Vaccine development support</li>
                 <li>• Transmission dynamics modeling</li>
@@ -173,8 +173,8 @@ export default function MicrobiologyServicesPage() {
             </div>
 
             <div className="border border-gray-200 rounded-lg p-6">
-              <h3 className="text-xl font-medium text-gray-900 mb-3">Biotechnology</h3>
-              <ul className="space-y-2 text-gray-600">
+              <h3 className="text-xl font-light tracking-tight text-gray-900 mb-3">Biotechnology</h3>
+              <ul className="space-y-2 text-gray-600 font-light">
                 <li>• Enzyme engineering</li>
                 <li>• Metabolic pathway optimization</li>
                 <li>• Biofuel production</li>
@@ -183,8 +183,8 @@ export default function MicrobiologyServicesPage() {
             </div>
 
             <div className="border border-gray-200 rounded-lg p-6">
-              <h3 className="text-xl font-medium text-gray-900 mb-3">Environmental Microbiology</h3>
-              <ul className="space-y-2 text-gray-600">
+              <h3 className="text-xl font-light tracking-tight text-gray-900 mb-3">Environmental Microbiology</h3>
+              <ul className="space-y-2 text-gray-600 font-light">
                 <li>• Bioremediation strategies</li>
                 <li>• Water quality assessment</li>
                 <li>• Soil microbiome studies</li>
@@ -193,8 +193,8 @@ export default function MicrobiologyServicesPage() {
             </div>
 
             <div className="border border-gray-200 rounded-lg p-6">
-              <h3 className="text-xl font-medium text-gray-900 mb-3">Food & Agriculture</h3>
-              <ul className="space-y-2 text-gray-600">
+              <h3 className="text-xl font-light tracking-tight text-gray-900 mb-3">Food & Agriculture</h3>
+              <ul className="space-y-2 text-gray-600 font-light">
                 <li>• Food safety testing</li>
                 <li>• Probiotic development</li>
                 <li>• Plant-microbe interactions</li>

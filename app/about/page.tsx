@@ -31,29 +31,29 @@ export default function AboutPage() {
                 <div className="flex items-start space-x-3">
                   <Target className="h-6 w-6 text-cyan-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-medium text-gray-900">Precision</h3>
-                    <p className="text-sm text-gray-600">Data-driven solutions with measurable outcomes</p>
+                    <h3 className="font-light tracking-tight text-gray-900">Precision</h3>
+                    <p className="text-sm leading-relaxed font-light tracking-tight text-gray-600">Data-driven solutions with measurable outcomes</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Lightbulb className="h-6 w-6 text-yellow-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-medium text-gray-900">Innovation</h3>
-                    <p className="text-sm text-gray-600">Pioneering approaches to complex problems</p>
+                    <h3 className="font-light tracking-tight text-gray-900">Innovation</h3>
+                    <p className="text-sm leading-relaxed font-light tracking-tight text-gray-600">Pioneering approaches to complex problems</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Handshake className="h-6 w-6 text-green-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-medium text-gray-900">Partnership</h3>
-                    <p className="text-sm text-gray-600">Collaborative engagement at every step</p>
+                    <h3 className="font-light tracking-tight text-gray-900">Partnership</h3>
+                    <p className="text-sm leading-relaxed font-light tracking-tight text-gray-600">Collaborative engagement at every step</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Globe className="h-6 w-6 text-purple-600 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-medium text-gray-900">Impact</h3>
-                    <p className="text-sm text-gray-600">Global solutions for local challenges</p>
+                    <h3 className="font-light tracking-tight text-gray-900">Impact</h3>
+                    <p className="text-sm leading-relaxed font-light tracking-tight text-gray-600">Global solutions for local challenges</p>
                   </div>
                 </div>
               </div>
@@ -82,23 +82,23 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="text-3xl font-medium text-cyan-600 mb-2">2015</div>
-              <h3 className="text-lg font-medium text-gray-900 mb-2">Foundation</h3>
-              <p className="text-gray-600 text-sm">
+              <div className="text-3xl font-light text-cyan-600 mb-2">2015</div>
+              <h3 className="text-lg font-light tracking-tight text-gray-900 mb-2">Foundation</h3>
+              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">
                 Started as a specialized AI consultancy, focusing on machine learning applications in healthcare
               </p>
             </div>
             <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="text-3xl font-medium text-green-600 mb-2">2018</div>
-              <h3 className="text-lg font-medium text-gray-900 mb-2">Expansion</h3>
-              <p className="text-gray-600 text-sm">
+              <div className="text-3xl font-light text-green-600 mb-2">2018</div>
+              <h3 className="text-lg font-light tracking-tight text-gray-900 mb-2">Expansion</h3>
+              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">
                 Added microbiology expertise through strategic partnerships with leading research institutions
               </p>
             </div>
             <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="text-3xl font-medium text-purple-600 mb-2">2020</div>
-              <h3 className="text-lg font-medium text-gray-900 mb-2">Evolution</h3>
-              <p className="text-gray-600 text-sm">
+              <div className="text-3xl font-light text-purple-600 mb-2">2020</div>
+              <h3 className="text-lg font-light tracking-tight text-gray-900 mb-2">Evolution</h3>
+              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">
                 Launched startup advisory services, completing our interdisciplinary consulting platform
               </p>
             </div>
@@ -107,19 +107,19 @@ export default function AboutPage() {
           <div className="mt-12 bg-gradient-to-r from-cyan-600 to-blue-700 rounded-lg p-8 text-white">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
               <div>
-                <div className="text-4xl font-medium mb-2">150+</div>
+                <div className="text-4xl font-light mb-2">150+</div>
                 <div className="text-cyan-100">Projects Completed</div>
               </div>
               <div>
-                <div className="text-4xl font-medium mb-2">50+</div>
+                <div className="text-4xl font-light mb-2">50+</div>
                 <div className="text-cyan-100">Expert Consultants</div>
               </div>
               <div>
-                <div className="text-4xl font-medium mb-2">25</div>
+                <div className="text-4xl font-light mb-2">25</div>
                 <div className="text-cyan-100">Countries Served</div>
               </div>
               <div>
-                <div className="text-4xl font-medium mb-2">95%</div>
+                <div className="text-4xl font-light mb-2">95%</div>
                 <div className="text-cyan-100">Client Retention</div>
               </div>
             </div>
@@ -147,9 +147,9 @@ export default function AboutPage() {
                   className="object-cover rounded-full"
                 />
               </div>
-              <h3 className="text-xl font-medium text-gray-900">Dr. Alexander Chen</h3>
+              <h3 className="text-xl font-light tracking-tight text-gray-900">Dr. Alexander Chen</h3>
               <p className="text-cyan-600 mb-2">CEO & AI Strategy Lead</p>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">
                 Former Google AI researcher with 15+ years in machine learning and neural networks
               </p>
             </div>
@@ -163,9 +163,9 @@ export default function AboutPage() {
                   className="object-cover rounded-full"
                 />
               </div>
-              <h3 className="text-xl font-medium text-gray-900">Dr. Sarah Martinez</h3>
+              <h3 className="text-xl font-light tracking-tight text-gray-900">Dr. Sarah Martinez</h3>
               <p className="text-green-600 mb-2">Chief Science Officer</p>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">
                 Renowned microbiologist with breakthrough research in antimicrobial resistance
               </p>
             </div>
@@ -179,9 +179,9 @@ export default function AboutPage() {
                   className="object-cover rounded-full"
                 />
               </div>
-              <h3 className="text-xl font-medium text-gray-900">Michael Thompson</h3>
+              <h3 className="text-xl font-light tracking-tight text-gray-900">Michael Thompson</h3>
               <p className="text-purple-600 mb-2">Managing Partner, Ventures</p>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight">
                 Serial entrepreneur with 3 successful exits and expertise in biotech commercialization
               </p>
             </div>

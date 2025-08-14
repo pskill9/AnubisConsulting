@@ -111,13 +111,13 @@ export default function InsightsPage() {
                 />
               </div>
               <div className="p-8 lg:p-12 flex flex-col justify-center">
-                <span className="text-cyan-600 font-medium text-sm mb-2">
+                <span className="text-cyan-600 font-light text-sm mb-2">
                   {insights[0].category}
                 </span>
-                <h3 className="text-2xl lg:text-3xl font-light text-gray-900 mb-4">
+                <h3 className="text-2xl lg:text-3xl font-light tracking-tight text-gray-900 mb-4">
                   {insights[0].title}
                 </h3>
-                <p className="text-gray-600 mb-6">
+                <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight mb-6">
                   {insights[0].excerpt}
                 </p>
                 <div className="flex items-center text-sm text-gray-500 mb-6">
@@ -146,7 +146,7 @@ export default function InsightsPage() {
               {categories.map((category) => (
                 <button
                   key={category}
-                  className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
+                  className={`px-4 py-2 rounded-full text-sm font-light transition-colors ${
                     category === "All"
                       ? "bg-cyan-600 text-white"
                       : "bg-white text-gray-700 hover:bg-gray-100"
@@ -171,15 +171,15 @@ export default function InsightsPage() {
                 </div>
                 
                 <div className="p-6">
-                  <span className="text-cyan-600 font-medium text-sm">
+                  <span className="text-cyan-600 font-light text-sm">
                     {article.category}
                   </span>
                   
-                  <h3 className="text-lg font-medium text-gray-900 mt-2 mb-3 line-clamp-2">
+                  <h3 className="text-lg font-light tracking-tight text-gray-900 mt-2 mb-3 line-clamp-2">
                     {article.title}
                   </h3>
                   
-                  <p className="text-gray-600 text-sm mb-4 line-clamp-3">
+                  <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight mb-4 line-clamp-3">
                     {article.excerpt}
                   </p>
                   
@@ -213,10 +213,10 @@ export default function InsightsPage() {
       <section className="py-20 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-r from-cyan-600 to-blue-700 rounded-2xl p-12 text-center">
-            <h2 className="text-3xl font-light text-white mb-4">
+            <h2 className="text-3xl font-light tracking-tight text-white mb-4">
               Stay Ahead of the Curve
             </h2>
-            <p className="text-xl text-cyan-100 mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-cyan-100 font-light tracking-tight mb-8 max-w-2xl mx-auto">
               Subscribe to our newsletter for the latest insights on AI, microbiology, and startup strategy
             </p>
             <form className="max-w-md mx-auto flex gap-4">
@@ -227,7 +227,7 @@ export default function InsightsPage() {
               />
               <button
                 type="submit"
-                className="px-6 py-3 bg-white text-cyan-600 font-normal rounded-md hover:bg-gray-100 transition-colors"
+                className="px-6 py-3 bg-white text-cyan-600 font-light rounded-md hover:bg-gray-100 transition-colors"
               >
                 Subscribe
               </button>
