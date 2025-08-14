@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X, Brain, Microscope, Rocket, ChevronRight } from "lucide-react";
 import { useState } from "react";
@@ -33,7 +34,7 @@ export function Navigation() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <div className="h-8 w-8 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg" />
+              <Image src="/logo.gif" alt="Anubis Logo" width={40} height={40} className="h-10 w-10" />
               <span className="text-xl font-light text-gray-900">Anubis</span>
             </Link>
           </div>
