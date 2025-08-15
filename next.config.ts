@@ -3,14 +3,14 @@ import type { NextConfig } from "next";
 const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
 
 let basePath = '';
-let assetPrefix = '';
+let assetPrefix = '/';
 
-if (isGithubActions) {
-  // Only apply basePath and assetPrefix when building in GitHub Actions
-  const repo = process.env.GITHUB_REPOSITORY?.replace(/.*?\//, '') || 'AnubisConsulting';
-  basePath = `/${repo}`;
-  assetPrefix = `/${repo}/`;
-}
+// if (isGithubActions) {
+//   // Only apply basePath and assetPrefix when building in GitHub Actions
+//   const repo = process.env.GITHUB_REPOSITORY?.replace(/.*?\//, '') || 'AnubisConsulting';
+//   basePath = `/${repo}`;
+//   assetPrefix = `/${repo}/`;
+// }
 
 const nextConfig: NextConfig = {
   // Enable static export for GitHub Pages
