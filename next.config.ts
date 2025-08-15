@@ -33,9 +33,6 @@ const nextConfig: NextConfig = {
   
   // Add trailing slash for compatibility
   trailingSlash: true,
-  
-  // Specify output directory
-  distDir: 'out',
 };
 
 export default nextConfig;
