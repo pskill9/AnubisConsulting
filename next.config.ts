@@ -7,7 +7,7 @@ let assetPrefix = '';
 
 if (isGithubActions) {
   // Only apply basePath and assetPrefix when building in GitHub Actions
-  const repo = process.env.GITHUB_REPOSITORY?.replace(/.*?\//, '') || 'AnubisBest';
+  const repo = process.env.GITHUB_REPOSITORY?.replace(/.*?\//, '') || 'AnubisConsulting';
   basePath = `/${repo}`;
   assetPrefix = `/${repo}/`;
 }
@@ -19,6 +19,11 @@ const nextConfig: NextConfig = {
   // Base path configuration
   basePath: basePath,
   assetPrefix: assetPrefix,
+  
+  // Expose basePath to runtime
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
+  },
   
   // Disable image optimization for static export
   images: {
