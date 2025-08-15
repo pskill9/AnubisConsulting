@@ -65,7 +65,7 @@ export default function StartupServicesPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-light tracking-tight text-gray-900 mb-3">Comprehensive Startup Support</h2>
             <p className="text-gray-700 text-sm leading-relaxed font-light tracking-tight max-w-2xl mx-auto">
-              End-to-end advisory services tailored to your startup's unique needs
+              End-to-end advisory services tailored to your startup&apos;s unique needs
             </p>
           </div>
 
@@ -157,7 +157,7 @@ export default function StartupServicesPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-light tracking-tight text-gray-900 mb-3">Support at Every Stage</h2>
             <p className="text-gray-700 text-sm leading-relaxed font-light tracking-tight max-w-2xl mx-auto">
-              Tailored advisory services aligned with your startup's journey
+              Tailored advisory services aligned with your startup&apos;s journey
             </p>
           </div>
 
@@ -266,7 +266,7 @@ export default function StartupServicesPage() {
             Ready to Accelerate Your Startup?
           </h2>
           <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-            Let's discuss how our advisory services can help you build, scale, and succeed
+            Let&apos;s discuss how our advisory services can help you build, scale, and succeed
           </p>
           <Link
             href="/contact"

@@ -1,6 +1,5 @@
 import { Hero } from "@/components/ui/helix-hero";
-import { Calendar, Clock, User, ArrowRight, Tag } from "lucide-react";
-import Link from "next/link";
+import { Calendar, Clock, User, ArrowRight } from "lucide-react";
 import Image from "next/image";
 
 const insights = [

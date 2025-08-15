@@ -41,8 +41,8 @@ export default function ContactPage() {
             <div>
               <h2 className="text-3xl font-light tracking-tight text-gray-900 mb-6">Get in Touch</h2>
               <p className="text-gray-700 text-sm leading-relaxed font-light tracking-tight mb-8">
-                Whether you're looking to implement AI solutions, advance microbiology research, 
-                or scale your startup, we're here to help. Reach out to discuss your project.
+                Whether you&apos;re looking to implement AI solutions, advance microbiology research, 
+                or scale your startup, we&apos;re here to help. Reach out to discuss your project.
               </p>
 
               <div className="space-y-6 mb-8">
@@ -221,7 +221,7 @@ export default function ContactPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-light tracking-tight text-gray-900 mb-3">Global Presence</h2>
             <p className="text-gray-700 text-sm leading-relaxed font-light tracking-tight max-w-2xl mx-auto">
-              With offices and partners worldwide, we're positioned to serve clients globally
+              With offices and partners worldwide, we&apos;re positioned to serve clients globally
             </p>
           </div>
 

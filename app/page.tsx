@@ -133,7 +133,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-light tracking-tight mb-3 text-gray-900">Recent Success Stories</h2>
             <p className="text-gray-700 text-sm leading-relaxed font-light tracking-tight max-w-2xl mx-auto">
-              See how we've helped organizations transform and grow
+              See how we&apos;ve helped organizations transform and grow
             </p>
           </div>
 

@@ -1,5 +1,5 @@
 import { Hero } from "@/components/ui/helix-hero";
-import { Brain, Microscope, Rocket, ArrowRight, Calendar, Building } from "lucide-react";
+import { Brain, Microscope, Rocket, Calendar, Building } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -134,14 +134,14 @@ export default function CaseStudiesPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-light tracking-tight text-gray-900 mb-3">Success Stories</h2>
             <p className="text-gray-700 text-sm leading-relaxed font-light tracking-tight max-w-2xl mx-auto">
-              Explore how we've delivered measurable results for our clients
+              Explore how we&apos;ve delivered measurable results for our clients
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {caseStudies.map((study) => {
               const Icon = study.icon;
-              const colorClasses = {
+              const colorClasses: { [key: string]: string } = {
                 cyan: "bg-cyan-100 text-cyan-700",
                 green: "bg-green-100 text-green-700",
                 purple: "bg-purple-100 text-purple-700"
@@ -271,7 +271,7 @@ export default function CaseStudiesPage() {
             Ready to Write Your Success Story?
           </h2>
           <p className="text-xl text-cyan-100 mb-8 max-w-2xl mx-auto">
-            Let's discuss how our expertise can help you achieve breakthrough results
+            Let&apos;s discuss how our expertise can help you achieve breakthrough results
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
