@@ -4,10 +4,10 @@ const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
 
 let basePath = '';
 
-if (isGithubActions) {
-  const repo = process.env.GITHUB_REPOSITORY?.replace(/.*?\//, '') || 'AnubisConsulting';
-  basePath = `/${repo}`;
-}
+// if (isGithubActions) {
+//   const repo = process.env.GITHUB_REPOSITORY?.replace(/.*?\//, '') || 'AnubisConsulting';
+//   basePath = `/${repo}`;
+// }
 
 export const config = {
   basePath: basePath,
