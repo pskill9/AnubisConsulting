@@ -9,7 +9,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <Image src="/logo.gif" alt="Anubis Logo" width={32} height={32} className="h-8 w-8" />
+              <Image src="logo.gif" alt="Anubis Logo" width={32} height={32} className="h-8 w-8" />
               <span className="text-xl font-medium text-white">Anubis</span>
             </div>
             <p className="text-sm text-gray-400">
