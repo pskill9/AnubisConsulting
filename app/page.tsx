@@ -1,7 +1,7 @@
 import { Hero } from "@/components/ui/helix-hero";
+import { Gallery4 } from "@/components/ui/gallery4";
 import { ArrowRight, Brain, Microscope, Rocket, CheckCircle, Users, Award, TrendingUp } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -128,81 +128,7 @@ export default function Home() {
       </section>
 
       {/* Recent Success Stories */}
-      <section className="py-20 bg-gray-50">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-light tracking-tight mb-3 text-gray-900">Recent Success Stories</h2>
-            <p className="text-gray-700 text-sm leading-relaxed font-light tracking-tight max-w-2xl mx-auto">
-              See how we&apos;ve helped organizations transform and grow
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <div className="h-48 bg-gradient-to-br from-cyan-100 to-blue-100 rounded-lg mb-4 flex items-center justify-center">
-                <Image
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop"
-                  alt="AI Implementation"
-                  width={400}
-                  height={300}
-                  className="rounded-lg object-cover w-full h-full"
-                />
-              </div>
-              <h3 className="text-lg font-light tracking-tight text-gray-900 mb-2">
-                AI-Powered Diagnostics Platform
-              </h3>
-              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight mb-3">
-                Reduced diagnostic time by 75% for a leading healthcare provider using custom ML models.
-              </p>
-              <Link href="/case-studies" className="text-cyan-600 text-sm font-normal hover:text-cyan-700">
-                Read case study →
-              </Link>
-            </div>
-
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <div className="h-48 bg-gradient-to-br from-green-100 to-emerald-100 rounded-lg mb-4 flex items-center justify-center">
-                <Image
-                  src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=400&h=300&fit=crop"
-                  alt="Biotech Research"
-                  width={400}
-                  height={300}
-                  className="rounded-lg object-cover w-full h-full"
-                />
-              </div>
-              <h3 className="text-lg font-light tracking-tight text-gray-900 mb-2">
-                Novel Antimicrobial Discovery
-              </h3>
-              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight mb-3">
-                Identified 3 promising antimicrobial compounds through advanced screening techniques.
-              </p>
-              <Link href="/case-studies" className="text-green-600 text-sm font-normal hover:text-green-700">
-                Read case study →
-              </Link>
-            </div>
-
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <div className="h-48 bg-gradient-to-br from-purple-100 to-indigo-100 rounded-lg mb-4 flex items-center justify-center">
-                <Image
-                  src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&h=300&fit=crop"
-                  alt="Startup Success"
-                  width={400}
-                  height={300}
-                  className="rounded-lg object-cover w-full h-full"
-                />
-              </div>
-              <h3 className="text-lg font-light tracking-tight text-gray-900 mb-2">
-                Series A Success Story
-              </h3>
-              <p className="text-gray-600 text-sm leading-relaxed font-light tracking-tight mb-3">
-                Helped biotech startup secure $15M in funding with strategic positioning and pitch deck.
-              </p>
-              <Link href="/case-studies" className="text-purple-600 text-sm font-normal hover:text-purple-700">
-                Read case study →
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Gallery4 />
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-cyan-600 to-blue-700">
